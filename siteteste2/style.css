@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to bottom,#8C8C8C,#f5d247a2,#595452);
+    
+}
+header {
+    min-width: 320px;
+    max-width: 950px;
+    
+    margin: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.299);
+
+}
+
+header > h1{
+    
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    font-weight: 100;
+    font-family:monospace
+}
+
+main{
+    padding: 20px;
+    min-width: 320px;
+    max-width: 950px;
+    margin: auto;
+    background-color: white;
+    
+}
+article > div{
+    text-align: center;
+}
+article > h2{
+    text-align: center;
+}
+footer{
+    background-color:#8C8C8C;
+}
